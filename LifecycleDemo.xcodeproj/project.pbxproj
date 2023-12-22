@@ -11,6 +11,8 @@
 		C8533AE52B35910900793244 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8533AE42B35910900793244 /* ContentView.swift */; };
 		C8533AE72B35910B00793244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8533AE62B35910B00793244 /* Assets.xcassets */; };
 		C8533AEB2B35910B00793244 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8533AEA2B35910B00793244 /* Preview Assets.xcassets */; };
+		C8533AF22B35916300793244 /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8533AF12B35916300793244 /* FirstTabView.swift */; };
+		C8533AF42B35919B00793244 /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8533AF32B35919B00793244 /* SecondTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		C8533AE62B35910B00793244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8533AE82B35910B00793244 /* LifecycleDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LifecycleDemo.entitlements; sourceTree = "<group>"; };
 		C8533AEA2B35910B00793244 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8533AF12B35916300793244 /* FirstTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
+		C8533AF32B35919B00793244 /* SecondTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				C8533AE62B35910B00793244 /* Assets.xcassets */,
 				C8533AE82B35910B00793244 /* LifecycleDemo.entitlements */,
 				C8533AE92B35910B00793244 /* Preview Content */,
+				C8533AF12B35916300793244 /* FirstTabView.swift */,
+				C8533AF32B35919B00793244 /* SecondTabView.swift */,
 			);
 			path = LifecycleDemo;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8533AF42B35919B00793244 /* SecondTabView.swift in Sources */,
 				C8533AE52B35910900793244 /* ContentView.swift in Sources */,
+				C8533AF22B35916300793244 /* FirstTabView.swift in Sources */,
 				C8533AE32B35910900793244 /* LifecycleDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
